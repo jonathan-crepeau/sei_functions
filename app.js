@@ -48,3 +48,37 @@
 // }
 // printTriangle();
 
+
+// SECTION Exercise #5: Write a function, 'printParameter', that takes a parameter, 'input'. The function shoud simply log the input parameter.
+
+// const printParameter = (input) => {
+//   console.log(input);
+// }
+// printParameter('Luna');
+// printParameter('Jonathan');
+
+
+// SECTION Exercise #6 Write a function, 'minusOne', that takes a parameter 'num'. Assuming the argument is a number, print the argument minus one:
+
+// const minusOne = (num) => {
+//   if (typeof num != 'number') {
+//     console.log('Must enter a number as an argument.');
+//   } else {
+//     console.log(num - 1);
+//   }
+// }
+// minusOne(10);
+// minusOne('luna');
+
+
+// SECTION Exercise #7 Write a function, 'getLastElement', that takes the parameter 'arr'. Invoke the function with a filled array as the argument, the function should print the last element within the array.
+
+// const getLastElement = (arr) => {
+//   console.log(arr[arr.length - 1]);
+// }
+// getLastElement(['Luna', 'Jonathan', 'Jeremy']);
+// getLastElement(['Ryan', 'Michele', 'Bruce']);
+// getLastElement(['Aang', 'Katara', 'Sokka', 'Toph']);
+
+
+// 
